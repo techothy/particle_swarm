@@ -51,7 +51,7 @@ Outputs land in [`results/`](results/):
 └── results/           # Generated artifacts (gitignored figures; CSV committed optionally)
 ```
 
-## Core design choices (vs original notebook)
+## Core design choices
 
 1. **Fitness aligned with evaluation** — PSO minimizes negative CV macro-F1 (logistic regression, saga), not a mixed clustering + single holdout split score.
 2. **Fair baselines** — Grid and random search use the **same fitness function** as PSO.
