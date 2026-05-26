@@ -1,4 +1,4 @@
-# PSO-TF-IDF: Swarm-Tuned Document Frequency Bounds
+# PSO for TF-IDF optimization: Swarm-Tuned Document Frequency Bounds
 
 **Tune `min_df` and `max_df` for TF-IDF with Particle Swarm Optimization**, then measure whether the representation improves **20 Newsgroups** classification against fixed defaults, grid search, and random search.
 
