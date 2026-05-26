@@ -53,10 +53,10 @@ Outputs land in [`results/`](results/):
 
 ## Core design choices
 
-1. **Fitness aligned with evaluation** — PSO minimizes negative CV macro-F1 (logistic regression, saga), not a mixed clustering + single holdout split score.
-2. **Fair baselines** — Grid and random search use the **same fitness function** as PSO.
-3. **Cached fitness evaluations** — Repeated `(min_df, max_df)` pairs during PSO are not re-fit.
-4. **Portable paths** — No hard-coded `D:\Project\...`; everything config-driven.
+1. **Fitness aligned with evaluation**: PSO minimizes negative CV macro-F1 (logistic regression, saga), not a mixed clustering + single holdout split score.
+2. **Fair baselines**: Grid and random search use the **same fitness function** as PSO.
+3. **Cached fitness evaluations**: Repeated `(min_df, max_df)` pairs during PSO are not re-fit.
+4. **Portable paths**: No hard-coded `D:\Project\...`; everything config-driven.
 
 ## Desktop app (plug-and-play GUI)
 
