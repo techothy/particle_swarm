@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/pso_tfidf/__init__.py
+src/pso_tfidf/baselines.py
+src/pso_tfidf/benchmark.py
+src/pso_tfidf/config.py
+src/pso_tfidf/data.py
+src/pso_tfidf/evaluate.py
+src/pso_tfidf/fitness.py
+src/pso_tfidf/pso.py
+src/pso_tfidf/types.py
+src/pso_tfidf.egg-info/PKG-INFO
+src/pso_tfidf.egg-info/SOURCES.txt
+src/pso_tfidf.egg-info/dependency_links.txt
+src/pso_tfidf.egg-info/requires.txt
+src/pso_tfidf.egg-info/top_level.txt
+tests/test_fitness.py

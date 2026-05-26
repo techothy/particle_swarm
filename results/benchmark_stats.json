@@ -1,0 +1,7 @@
+{
+  "baseline_method": "grid_search",
+  "paired_ttest_statistic": 6.527002310420754,
+  "paired_ttest_pvalue": 0.0028458781514901672,
+  "cohens_d_pso_minus_baseline": 2.918964171079798,
+  "f1_lift_mean": 0.04094442910838475
+}

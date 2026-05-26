@@ -1,0 +1,24 @@
+# Quick smoke run (~few minutes). Use for CI and local dev.
+results_dir: results
+
+data:
+  max_docs: 600
+
+pso:
+  population: 12
+  max_iter: 15
+  seed: 41
+
+fitness:
+  cv_folds: 3
+  min_features: 30
+  max_features: 6000
+
+baselines:
+  grid_min_df: [0.005, 0.01, 0.03]
+  grid_max_df: [0.15, 0.25, 0.35]
+  random_search_trials: 36
+
+raw_baseline_min_df: 5
+raw_baseline_max_df: 0.8
+raw_baseline_max_features: 1500
