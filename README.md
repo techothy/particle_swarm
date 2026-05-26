@@ -58,10 +58,6 @@ Outputs land in [`results/`](results/):
 3. **Cached fitness evaluations** — Repeated `(min_df, max_df)` pairs during PSO are not re-fit.
 4. **Portable paths** — No hard-coded `D:\Project\...`; everything config-driven.
 
-## Improving results
-
-See [docs/IMPROVEMENTS.md](docs/IMPROVEMENTS.md) for optimization, statistical, and engineering next steps (e.g. full 20k docs, 10-fold CV during final eval only, Bayesian optimization baseline).
-
 ## Desktop app (plug-and-play GUI)
 
 A desktop interface runs the full pipeline in the background and shows summary tables, statistics, live log, and charts.
